@@ -1,0 +1,545 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	margin: 0 auto;
+	width: 1280px;
+}
+.head{
+	background-color:#87509C;
+	width: 100%;
+	padding-top: 30px;
+}
+.logo{
+	margin-left: 100px;
+	padding-bottom: -30px;
+}
+.menu{
+	display: block;
+	text-align: right;
+	margin-top: -43px;
+	margin-right: 70px;
+}
+.menu nav ul{
+	list-style: none;
+
+
+}
+.menu nav ul li {
+	display: inline-block;
+	text-align: right;
+	margin: 18px 30px;
+
+}
+.menu nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 21px;
+	text-transform: uppercase;
+}
+.banner{
+	text-align: center;
+	background-color: #87509C;
+	padding-top: 140px;
+	padding-bottom: 90px;
+	color: white;
+	font-family: 'Noto Serif JP', serif;
+}
+.btn{
+	padding: 8px 30px;
+	background-color: #EB7D4B;
+	border-radius: 9px;
+	border: none;
+	box-shadow: 0px 2px black;
+	font-size: 15px;
+	font-family: 'Noto Serif JP', serif;
+	color: white;
+}
+.about{
+	width: 100%;
+	float: left;
+	background-color: #17C2A4;
+	padding: 20px 0px;
+
+}
+.title{
+	margin: 0 auto;
+	width: 700px;
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+
+}
+.title h2{
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+
+}
+.title span{
+	border-bottom: 2px solid gray;
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin: 19px auto;
+
+}
+.title p{
+	font-size: 20px;
+	padding: 0px 0px;
+	font-family: 'Noto Serif JP', serif;
+	color: white;
+}
+.services{
+	width: 100%;
+	float: left;
+	padding-bottom: 40px;
+}
+.service1{
+	width: 20%;
+	float: left;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	margin-left: 45px;
+	margin-top: 45px;
+	font-family: 'Noto Serif JP', serif;
+	color: white;
+}
+.service1 h2{
+	text-transform: uppercase;
+	font-family: 'Noto Serif JP', serif;
+	font-size: 30px;
+}
+.service-image{
+	margin-left: 25px;
+}
+.service-size{
+	font-size: 30px;
+}
+.service-image2{
+	margin-left: 5px;
+}
+.team{
+	width: 100%;
+	float: left;
+	background-color: #E7F1F8;
+	padding: 20px 0px;
+
+}
+.team-title{
+	margin: 0 auto;
+	width: 900px;
+	text-align: center;
+	padding-top: 40px;
+	color: black;
+
+}
+.team-title h2{
+	font-size: 40px;
+	color: black;
+	text-transform: uppercase;
+
+}
+.team-title span{
+	border-bottom: 2px solid gray;
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin: 19px auto;
+
+}
+.team-title p{
+	font-size: 20px;
+	padding: 0px 0px;
+	font-family: 'Noto Serif JP', serif;
+	color: black;
+}
+.team-member{
+	width: 100%;
+	float: left;
+	padding-bottom: 40px;
+}
+.team-member1{
+	width: 20%;
+	float: left;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	margin-left: 45px;
+	margin-top: 45px;
+	font-family: 'Noto Serif JP', serif;
+	color: black;
+}
+.team-member1 h2{
+	text-transform: uppercase;
+	font-family: 'Noto Serif JP', serif;
+}
+.team-member1 h5{
+	color: #55C5EB;
+}
+.team-member-image{
+	margin-left: 25px;
+	border-radius: 50%;
+}
+.service-size{
+	font-size: 30px;
+}
+.team-member-image2{
+	margin-left: 5px;
+	border-radius: 50%;
+}
+.team-member-image1{
+	border-radius: 50%;
+}
+.fa.fa-facebook-square{
+	
+}
+.fa.fa-twitter-square{
+	padding-left: 20px;
+	
+}
+.fa.fa-linkedin-square{
+	padding-left: 20px;
+	
+}
+.fa.fa-envelope-o{
+	padding-left: 20px;
+	
+}
+.single-skill{
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-top: 35px;
+}
+.skills{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background-color: white;
+	padding-bottom: 70px;
+
+}
+.skills-1{
+	margin: 0 auto;
+	width: 700px;
+	text-align: center;
+	padding-top: 40px;
+	color: black;
+
+}
+.skills-1 h2{
+	font-size: 40px;
+	color: black;
+	text-transform: uppercase;
+}
+.single-skill h3{
+	font-size: 20px;
+	font-family: 'Noto Serif JP', serif;
+}
+.skills-1 span{
+	border-bottom: 2px solid gray;
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin: 19px auto;
+
+}
+.skills-1 p{
+	font-size: 20px;
+	padding: 0px 0px;
+	font-family: 'Noto Serif JP', serif;
+	color: black;
+}
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background-color: #FFDD99;
+	padding-bottom: 70px;
+
+}
+.portfolio-1{
+	margin: 0 auto;
+	width: 700px;
+	text-align: center;
+	padding-top: 40px;
+	color: black;
+
+}
+.portfolio-1 h2{
+	font-size: 40px;
+	color: black;
+	text-transform: uppercase;
+}
+.portfolio-1 span{
+	border-bottom: 2px solid gray;
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin: 19px auto;
+
+}
+.portfolio-1 p{
+	font-size: 20px;
+	padding: 0px 0px;
+	font-family: 'Noto Serif JP', serif;
+	color: black;
+}
+.portfolio-button{
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.btn1{
+	background-color: #EBC985;
+	padding: 4px 20px;
+	border: none;
+}
+.portfolio-2{
+	width: 50%;
+	float: left;
+	margin-top: 30px;
+	display: block;
+	text-align: center;
+}
+.portfolio-3{
+	width: 50%;
+	float: left;
+	margin-top: 30px;
+	display: block;
+	text-align: center;	
+}
+.portfolio-button-again{
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 525px;
+	float: left;
+}
+.btn2{
+	background-color: #17C2A4;
+	padding: 12px 40px;
+	border: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+.client{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background-color: #D74680;
+	padding-bottom: 70px;
+
+}
+.client-1{
+	margin: 0 auto;
+	width: 700px;
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+
+}
+.client-1 h2{
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+}
+.client-1 span{
+	border-bottom: 2px solid gray;
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin: 19px auto;
+
+}
+.client-1 p{
+	font-size: 20px;
+	padding: 0px 0px;
+	font-family: 'Noto Serif JP', serif;
+	color: white;
+}
+.portfolio-button{
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.client-2{
+	width: 50%;
+	float: left;
+	margin-top: 50px;
+}
+.client-3{
+	width: 50%;
+	float: left;
+	margin-top: 50px;
+}
+.client1{
+	border-radius: 50%;
+	margin-left: 90px;
+}
+.client2{
+	border-radius: 50%;
+	margin-left: 90px;
+}
+.client3{
+	border-radius: 50%;
+	margin-left: 90px;
+}
+.client4{
+	border-radius: 50%;
+	margin-left: 90px;
+}
+.client-2 p{
+	margin-top: -95px;
+	padding-left: 115px;
+	color: white;
+	margin-left: 90px;
+	font-style: italic;
+}
+.client-2 h3{
+	padding-left: 115px;
+	color: white;
+	margin-left: 90px;
+}
+.client-2 h4{
+	padding-left: 115px;
+	color: white;
+	margin-left: 90px;	
+}
+.client-3 p{
+	margin-top: -95px;
+	padding-left: 115px;
+	color: white;
+	margin-left: 90px;
+	font-style: italic;
+}
+.client-3 h3{
+	padding-left: 115px;
+	color: white;
+	margin-left: 90px;
+}
+.client-3 h4{
+	padding-left: 115px;
+	color: white;
+	margin-left: 90px;
+}
+
+
+
+
+.get-in-touch{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background-color: #3C5499;
+	padding-bottom: 70px;
+
+}
+.get-in-touch1{
+	margin: 0 auto;
+	width: 700px;
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+
+}
+.get-in-touch1 h2{
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+}
+.get-in-touch1 span{
+	border-bottom: 2px solid gray;
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin: 19px auto;
+
+}
+.get-in-touch1 p{
+	font-size: 15px;
+	padding: 0px 0px;
+	font-family: 'Noto Serif JP', serif;
+	color: white;
+}
+
+
+
+
+
+.frm{
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+}
+.name1{
+	width: 30%;
+	float: left;
+	margin-left: 216px;
+	padding: 8px;
+	background-color: #273A71;
+	color: white;
+
+}
+.name2{
+	width: 30%;
+	float: left;
+	margin-left: 40px;
+	padding: 8px;
+	background-color: #273A71;
+	color: white;
+
+}
+.message{
+	width: 66%;
+	margin-top: 14px;
+	height: 165px;
+	background-color: #273A71;
+	color: white;
+
+}
+.contact-button{
+	margin-top: 45px;
+	padding: 14px 50px;
+	background-color: #30BAE7;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+
+}
+
+.end{
+	background-color: #344B8E;
+	width: 100%;
+	float: left;
+}
+.end nav ul{
+	list-style: none;
+	text-align: center;
+
+}
+.end nav ul li{
+	display: inline-block;
+	margin: 18px 30px;
+}
+.end nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+
+}
